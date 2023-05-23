@@ -67,3 +67,9 @@ env = WLR_NO_HARDWARE_CURSORS,1
     git clone https://aur.archlinux.org/yay.git &>> $INSTLOG
     cd yay
     makepkg -si 
+    
+    
+    
+    git clone --recursive https://github.com/hyprwm/Hyprland
+cd Hyprland
+sudo make install
