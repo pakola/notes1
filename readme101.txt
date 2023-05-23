@@ -61,3 +61,9 @@ env = WLR_NO_HARDWARE_CURSORS,1
     nwg-look-bin
     sddm-git 
     sddm-sugar-candy-git
+    
+    
+    to install yay 
+    git clone https://aur.archlinux.org/yay.git &>> $INSTLOG
+    cd yay
+    makepkg -si 
